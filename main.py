@@ -128,6 +128,7 @@ plt.ylabel("Magnitude")
 
 plt.grid(True)
 
+plt.savefig("Depth_vs_Magnitude.png")
 plt.show()
 
 
@@ -161,6 +162,7 @@ plt.ylabel("Average Magnitude")
 
 plt.grid(True)
 
+plt.savefig("Average_Magnitude_by_Year.png")
 plt.show()
 
 
@@ -170,4 +172,5 @@ plt.title("Total Earthquake Energy by Year")
 plt.xlabel("Year")
 plt.ylabel("Energy")
 
+plt.savefig("Total_Earthquake_Energy_by_Year.png")
 plt.show()  
